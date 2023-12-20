@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(./assets/bg.png) ;
+    height:max-content;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.yourarea{
+    border: 1px solid yellow;
+    height: 500px;
+    width: 500px;
+}
+.comparea{
+    border: 1px solid yellow;
+    height: 500px;
+    width: 500px;
+}
+span{
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.scores{
+    margin: 100px 0 60px 600px;
+}
+.i{
+    position: absolute;
+    visibility: hidden;
+}
+.mainbody{
+    display: flex;
+
+
+    
+    justify-content:space-evenly ;
+}
+.playlogo{
+    margin-top: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#win {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#you{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    visibility: hidden;
+}
+#game{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    visibility: hidden;
+}
+#playagain{
+    margin: 50px 500px 100px 600px;
+    font-size: 40px;
+    color: yellow;
+    border: 0 solid black;
+    background-color: transparent;
+    font-weight:900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: hidden;
+}
